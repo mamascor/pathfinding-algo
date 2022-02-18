@@ -1,0 +1,27 @@
+body {
+    background: #0a192f;
+    margin: 0px;
+    overflow: hidden;
+}
+.gridcell {
+    float: left;
+}
+.gridcell.blocked {
+    background: gray;
+}
+.gridcell.out-cell {
+    background-color: #ccd6f6;
+}
+.gridcell.in-cell {
+    background-color: white;
+}
+
+svg {
+    position: fixed;
+    z-index: -1;
+}
+svg path {
+    fill: none;
+    stroke-width: 3px;
+    stroke: #64ffda;
+}
